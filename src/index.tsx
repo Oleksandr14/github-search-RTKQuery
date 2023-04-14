@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}> {/**connect redux and paste store into provider */}
-  <BrowserRouter> {/**Обгортаю App , щоб була маршрутизація */}
+  <BrowserRouter basename="/github-search-RTKQuery/"> {/**Обгортаю App , щоб була маршрутизація */}
     <App />
   </BrowserRouter>
   </Provider>
